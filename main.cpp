@@ -1,12 +1,10 @@
-#include "setup.hpp"
+#include "menus.hpp"
 
 int main(int argc, char** argv) {
-    Setup set;
+    menus menu;
     if (argc == 1) {
-        std::cout << "mdo";
-        set.setupNew();
+        menu.renderMMenu();
     }
     else {
-        std::cout << "moo";
     }
 }
